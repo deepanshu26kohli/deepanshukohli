@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Download, Github, Linkedin, Mail } from 'lucide-react';
-
+import img from "../assets/deepanshu_img.png"
 export default function Hero() {
   const particles = Array.from({ length: 50 });
 
@@ -37,6 +37,11 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
+          <img
+            src={img}
+            alt="Deepanshu Kohli"
+            className="w-36 h-36 rounded-full object-cover object-center mx-auto mt-6"
+          />
           <motion.h1
             className="text-6xl md:text-8xl font-bold mb-6"
             initial={{ opacity: 0, scale: 0.5 }}

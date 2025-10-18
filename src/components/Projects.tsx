@@ -5,58 +5,31 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'AI-Powered Chat Platform',
-    description: 'Real-time chat application with AI integration using vector databases for semantic search and context-aware responses.',
-    tech: ['React', 'Node.js', 'Vector DB', 'WebSockets'],
+    title: 'AI-Powered Image Chatbot',
+    description: 'Image chat application with AI integration using vector databases for semantic search and context-aware responses.',
+    tech: ['React', 'Node.js', 'Vector DB', 'Supabase'],
     image: 'https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&w=800',
     github: 'https://github.com/yourusername/project1',
-    live: 'https://project1.demo.com',
+    live: 'https://ai-powered-image-chatbot-web1.vercel.app/',
     gradient: 'from-cyan-500 to-blue-600',
   },
   {
-    title: 'E-Commerce Dashboard',
-    description: 'Full-featured admin dashboard with analytics, inventory management, and real-time order tracking.',
-    tech: ['React', 'Express', 'MongoDB', 'Chart.js'],
+    title: 'Meerani E-Commerce Clothing Store', 
+    description: 'E-commerce website with user authentication, cart functionality, and payment integration.',
+    tech: ['Odoo'],
     image: 'https://images.pexels.com/photos/7172832/pexels-photo-7172832.jpeg?auto=compress&cs=tinysrgb&w=800',
     github: 'https://github.com/yourusername/project2',
-    live: 'https://project2.demo.com',
+    live: 'https://meerani.odoo.com',
     gradient: 'from-emerald-500 to-teal-600',
   },
   {
-    title: 'Social Media Mobile App',
-    description: 'Cross-platform mobile app with features like stories, real-time messaging, and content sharing.',
+    title: 'AKS Fitness - Gym website',
+    description: 'Fitness website with responsive design, interactive elements and user experience.',
     tech: ['React Native', 'Firebase', 'Redux', 'Expo'],
     image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
     github: 'https://github.com/yourusername/project3',
-    live: 'https://project3.demo.com',
+    live: 'https://aksfitness.vercel.app',
     gradient: 'from-pink-500 to-rose-600',
-  },
-  {
-    title: 'Task Management System',
-    description: 'Collaborative project management tool with Kanban boards, team collaboration, and progress tracking.',
-    tech: ['React', 'Supabase', 'Tailwind', 'DnD Kit'],
-    image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
-    github: 'https://github.com/yourusername/project4',
-    live: 'https://project4.demo.com',
-    gradient: 'from-orange-500 to-amber-600',
-  },
-  {
-    title: 'Real Estate Platform',
-    description: 'Property listing website with advanced search, virtual tours, and integrated booking system.',
-    tech: ['React', 'Node.js', 'SQL', 'Google Maps API'],
-    image: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800',
-    github: 'https://github.com/yourusername/project5',
-    live: 'https://project5.demo.com',
-    gradient: 'from-blue-500 to-cyan-600',
-  },
-  {
-    title: 'Fitness Tracking App',
-    description: 'Mobile fitness application with workout plans, progress tracking, and nutrition recommendations.',
-    tech: ['React Native', 'Express', 'MongoDB', 'ML Kit'],
-    image: 'https://images.pexels.com/photos/4164766/pexels-photo-4164766.jpeg?auto=compress&cs=tinysrgb&w=800',
-    github: 'https://github.com/yourusername/project6',
-    live: 'https://project6.demo.com',
-    gradient: 'from-green-500 to-emerald-600',
   },
 ];
 
@@ -124,7 +97,7 @@ export default function Projects() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <motion.a
+                  {/* <motion.a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -134,7 +107,7 @@ export default function Projects() {
                   >
                     <Github size={20} />
                     <span className="text-sm">Code</span>
-                  </motion.a>
+                  </motion.a> */}
 
                   <motion.a
                     href={project.live}

@@ -31,7 +31,7 @@ export default function Footer() {
           >
             <span>Made with</span>
             <Heart size={16} className="text-red-500 fill-red-500 animate-pulse" />
-            <span>by Your Name</span>
+            <span>by Deepanshu Kohli</span>
           </motion.div>
 
           <motion.p

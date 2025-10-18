@@ -7,19 +7,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'your.email@example.com',
-    href: 'mailto:your.email@example.com',
+    value: 'deepanshukohli63@gmail.com',
+    href: 'mailto:deepanshukohli63@gmail.com',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 (555) 123-4567',
-    href: 'tel:+15551234567',
+    value: '+918899716214',
+    href: 'tel:+918899716214',
   },
   {
     icon: MapPin,
     label: 'Location',
-    value: 'Your City, Country',
+    value: 'Jammu, India',
     href: '#',
   },
 ];
@@ -28,21 +28,16 @@ const socialLinks = [
   {
     icon: Github,
     name: 'GitHub',
-    href: 'https://github.com/yourusername',
+    href: 'https://github.com/deepanshu26kohli',
     color: 'hover:text-gray-400',
   },
   {
     icon: Linkedin,
     name: 'LinkedIn',
-    href: 'https://linkedin.com/in/yourusername',
+    href: 'https://linkedin.com/in/deepanshukohli',
     color: 'hover:text-blue-400',
   },
-  {
-    icon: Twitter,
-    name: 'Twitter',
-    href: 'https://twitter.com/yourusername',
-    color: 'hover:text-cyan-400',
-  },
+  
 ];
 
 export default function Contact() {
@@ -93,7 +88,7 @@ export default function Contact() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-start">
+        <div className="grid md:grid-cols-6 gap-12 " style={{display:"flex" , justifyContent : "center" , alignItems:"center"}}>
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -157,7 +152,7 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -236,7 +231,7 @@ export default function Contact() {
                 </motion.button>
               </div>
             </form>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
