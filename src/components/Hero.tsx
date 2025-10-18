@@ -134,7 +134,7 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      <motion.div
+      {/* <motion.div
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
@@ -146,7 +146,7 @@ export default function Hero() {
             transition={{ duration: 2, repeat: Infinity }}
           />
         </div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 }
